@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a static website for Anovar HC, an IT consulting services company. The project is built using pure HTML, CSS, and JavaScript (implied from the structure) with a focus on modern web design principles and responsive layout. The website appears to be a single-page application with multiple sections showcasing the company's services, portfolio, and contact information.
+This is a static website for Anovar HC, an IT consulting services company. The project is built using pure HTML, CSS, and JavaScript with a focus on modern web design principles and responsive layout. The website includes a homepage (index.html) and a dedicated services page (services.html) showcasing the company's comprehensive IT consulting offerings.
 
 ## User Preferences
 
@@ -12,10 +12,10 @@ Preferred communication style: Simple, everyday language.
 
 ### Frontend Architecture
 - **Technology Stack**: Pure HTML5, CSS3, and JavaScript
-- **Design Approach**: Single-page application with section-based navigation
+- **Design Approach**: Multi-page application with homepage and dedicated services page
 - **Styling**: Custom CSS with CSS custom properties (variables) for consistent theming
 - **Responsive Design**: Mobile-first approach with hamburger menu for mobile devices
-- **Typography**: Google Fonts (Roboto) for modern, readable text
+- **Typography**: Google Fonts (Open Sans primary, Roboto fallback) for modern, readable text
 - **Icons**: Font Awesome 6.4.0 for scalable vector icons
 
 ### Key Design Decisions
@@ -28,9 +28,13 @@ Preferred communication style: Simple, everyday language.
 
 ### Navigation System
 - Fixed header with company branding
-- Horizontal navigation menu for desktop
+- Horizontal navigation menu for desktop with inter-page navigation
 - Mobile hamburger menu for responsive design
-- Active state management for current section
+- Active state management for current page/section
+
+### Page Structure
+- **Homepage (index.html)**: Hero section, services overview, testimonials, footer
+- **Services Page (services.html)**: Dedicated services hero, detailed service blocks, CTA section
 
 ### Theming System
 - CSS custom properties for color management
