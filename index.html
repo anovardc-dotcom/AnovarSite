@@ -249,7 +249,7 @@
             });
         });
 
-        // Active navigation link highlighting
+        // Active navigation link highlighting (only for internal page links)
         window.addEventListener('scroll', () => {
             let current = '';
             const sections = document.querySelectorAll('section');
@@ -262,7 +262,8 @@
                 }
             });
 
-            document.querySelectorAll('.nav-link').forEach(link => {
+            // Only update navigation for internal page links (starting with #)
+            document.querySelectorAll('.nav-link[href^="#"]').forEach(link => {
                 link.classList.remove('active');
                 if (link.getAttribute('href') === `#${current}`) {
                     link.classList.add('active');
