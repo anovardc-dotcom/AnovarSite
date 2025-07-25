@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a static website for Anovar HC, an IT consulting services company. The project is built using pure HTML, CSS, and JavaScript with a focus on modern web design principles and responsive layout. The website includes a homepage (index.html) and a dedicated services page (services.html) showcasing the company's comprehensive IT consulting offerings.
+This is a static website for Anovar HC, an IT consulting services company. The project is built using pure HTML, CSS, and JavaScript with a focus on modern web design principles and responsive layout. The website includes a homepage (index.html), a dedicated services page (services.html), and a portfolio page (portfolio.html) showcasing the company's comprehensive IT consulting offerings and successful projects.
 
 ## User Preferences
 
@@ -35,6 +35,7 @@ Preferred communication style: Simple, everyday language.
 ### Page Structure
 - **Homepage (index.html)**: Hero section, services overview, testimonials, footer
 - **Services Page (services.html)**: Dedicated services hero, detailed service blocks, CTA section
+- **Portfolio Page (portfolio.html)**: Portfolio hero, filter buttons, project cards with case studies, CTA section
 
 ### Theming System
 - CSS custom properties for color management

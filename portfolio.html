@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Portfolio - Anovar HC - IT Consulting Services</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Company Logo/Name -->
+            <div class="nav-logo">
+                <h2>Anovar HC</h2>
+            </div>
+            
+            <!-- Navigation Menu -->
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link active">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            
+            <!-- Mobile Menu Toggle -->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Hero Section -->
+    <section class="portfolio-hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Our Work</h1>
+                <p class="hero-description">
+                    Explore our portfolio of successful projects where we've helped businesses transform their digital presence through innovative design and development solutions.
+                </p>
+            </div>
+            <div class="hero-visual">
+                <!-- SVG illustration for portfolio -->
+                <svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Portfolio grid illustration -->
+                    <rect x="60" y="60" width="100" height="80" rx="8" fill="#3498db" opacity="0.8"/>
+                    <rect x="70" y="70" width="80" height="10" rx="2" fill="white"/>
+                    <rect x="70" y="90" width="60" height="8" rx="2" fill="white" opacity="0.7"/>
+                    <rect x="70" y="105" width="40" height="8" rx="2" fill="white" opacity="0.7"/>
+                    <circle cx="130" cy="125" r="8" fill="white"/>
+                    
+                    <rect x="180" y="60" width="100" height="80" rx="8" fill="#e74c3c" opacity="0.8"/>
+                    <rect x="190" y="70" width="80" height="10" rx="2" fill="white"/>
+                    <rect x="190" y="90" width="60" height="8" rx="2" fill="white" opacity="0.7"/>
+                    <rect x="190" y="105" width="50" height="8" rx="2" fill="white" opacity="0.7"/>
+                    <circle cx="250" cy="125" r="8" fill="white"/>
+                    
+                    <rect x="300" y="60" width="100" height="80" rx="8" fill="#27ae60" opacity="0.8"/>
+                    <rect x="310" y="70" width="80" height="10" rx="2" fill="white"/>
+                    <rect x="310" y="90" width="70" height="8" rx="2" fill="white" opacity="0.7"/>
+                    <rect x="310" y="105" width="45" height="8" rx="2" fill="white" opacity="0.7"/>
+                    <circle cx="370" cy="125" r="8" fill="white"/>
+                    
+                    <rect x="120" y="160" width="100" height="80" rx="8" fill="#f39c12" opacity="0.8"/>
+                    <rect x="130" y="170" width="80" height="10" rx="2" fill="white"/>
+                    <rect x="130" y="190" width="55" height="8" rx="2" fill="white" opacity="0.7"/>
+                    <rect x="130" y="205" width="65" height="8" rx="2" fill="white" opacity="0.7"/>
+                    <circle cx="190" cy="225" r="8" fill="white"/>
+                    
+                    <rect x="240" y="160" width="100" height="80" rx="8" fill="#9b59b6" opacity="0.8"/>
+                    <rect x="250" y="170" width="80" height="10" rx="2" fill="white"/>
+                    <rect x="250" y="190" width="50" height="8" rx="2" fill="white" opacity="0.7"/>
+                    <rect x="250" y="205" width="60" height="8" rx="2" fill="white" opacity="0.7"/>
+                    <circle cx="310" cy="225" r="8" fill="white"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="portfolio-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="ui-ux">UI/UX</button>
+                <button class="filter-btn" data-filter="app-dev">App Dev</button>
+                <button class="filter-btn" data-filter="workshops">Workshops</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Projects Section -->
+    <section class="portfolio-projects">
+        <div class="container">
+            <div class="projects-grid">
+                
+                <!-- Project 1: E-commerce Platform Redesign -->
+                <article class="project-card" data-category="ui-ux">
+                    <div class="project-image">
+                        <!-- SVG thumbnail for e-commerce project -->
+                        <svg width="100%" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="200" fill="#f8f9fa"/>
+                            <rect x="20" y="20" width="260" height="30" rx="4" fill="#3498db"/>
+                            <rect x="30" y="70" width="80" height="80" rx="8" fill="#ecf0f1"/>
+                            <rect x="130" y="70" width="80" height="80" rx="8" fill="#ecf0f1"/>
+                            <rect x="230" y="70" width="50" height="80" rx="8" fill="#ecf0f1"/>
+                            <rect x="30" y="165" width="100" height="15" rx="3" fill="#27ae60"/>
+                            <rect x="150" y="165" width="100" height="15" rx="3" fill="#e74c3c"/>
+                            <circle cx="70" cy="110" r="15" fill="#3498db" opacity="0.3"/>
+                            <circle cx="170" cy="110" r="15" fill="#f39c12" opacity="0.3"/>
+                            <rect x="240" y="95" width="30" height="30" rx="4" fill="#9b59b6" opacity="0.3"/>
+                        </svg>
+                        <div class="project-overlay">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">UI/UX Design</div>
+                        <h3 class="project-title">TechMart E-commerce Platform</h3>
+                        <p class="project-description">
+                            Redesigned the complete user experience for a leading e-commerce platform, focusing on mobile-first design and streamlined checkout process.
+                        </p>
+                        <div class="project-impact">
+                            <strong>Impact:</strong> 45% increase in conversion rate, 60% reduction in cart abandonment
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">User Research</span>
+                            <span class="tag">Prototyping</span>
+                            <span class="tag">Mobile Design</span>
+                        </div>
+                        <a href="#" class="project-link">Read Full Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Project 2: Financial App Development -->
+                <article class="project-card" data-category="app-dev">
+                    <div class="project-image">
+                        <!-- SVG thumbnail for financial app -->
+                        <svg width="100%" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="200" fill="#2c3e50"/>
+                            <rect x="50" y="30" width="200" height="140" rx="20" fill="#34495e"/>
+                            <rect x="60" y="40" width="180" height="25" rx="5" fill="#3498db"/>
+                            <rect x="70" y="85" width="160" height="8" rx="2" fill="#ecf0f1"/>
+                            <rect x="70" y="105" width="120" height="8" rx="2" fill="#ecf0f1"/>
+                            <rect x="70" y="125" width="140" height="8" rx="2" fill="#ecf0f1"/>
+                            <circle cx="200" cy="95" r="12" fill="#27ae60"/>
+                            <circle cx="200" cy="115" r="12" fill="#e74c3c"/>
+                            <circle cx="200" cy="135" r="12" fill="#f39c12"/>
+                            <path d="M80 150 Q120 140 160 150 T220 150" stroke="#3498db" stroke-width="3" fill="none"/>
+                        </svg>
+                        <div class="project-overlay">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">App Development</div>
+                        <h3 class="project-title">SecureWallet Mobile App</h3>
+                        <p class="project-description">
+                            Developed a secure financial management app with advanced encryption, real-time analytics, and intuitive investment tracking features.
+                        </p>
+                        <div class="project-impact">
+                            <strong>Impact:</strong> 100K+ downloads in first quarter, 4.8/5 app store rating
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">Security</span>
+                            <span class="tag">Analytics</span>
+                        </div>
+                        <a href="#" class="project-link">Read Full Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Project 3: Design Thinking Workshop -->
+                <article class="project-card" data-category="workshops">
+                    <div class="project-image">
+                        <!-- SVG thumbnail for workshop -->
+                        <svg width="100%" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="200" fill="#f39c12" opacity="0.1"/>
+                            <circle cx="150" cy="100" r="50" fill="#f39c12" opacity="0.2"/>
+                            <circle cx="150" cy="100" r="30" fill="#f39c12" opacity="0.4"/>
+                            <circle cx="150" cy="100" r="15" fill="#f39c12"/>
+                            <path d="M140 90 L150 100 L160 90" fill="white"/>
+                            
+                            <!-- People icons around the center -->
+                            <circle cx="80" cy="60" r="12" fill="#3498db"/>
+                            <rect x="74" y="75" width="12" height="15" rx="3" fill="#3498db"/>
+                            
+                            <circle cx="220" cy="60" r="12" fill="#e74c3c"/>
+                            <rect x="214" y="75" width="12" height="15" rx="3" fill="#e74c3c"/>
+                            
+                            <circle cx="80" cy="140" r="12" fill="#27ae60"/>
+                            <rect x="74" y="155" width="12" height="15" rx="3" fill="#27ae60"/>
+                            
+                            <circle cx="220" cy="140" r="12" fill="#9b59b6"/>
+                            <rect x="214" y="155" width="12" height="15" rx="3" fill="#9b59b6"/>
+                            
+                            <!-- Connection lines -->
+                            <path d="M92 75 L125 85" stroke="#ddd" stroke-width="2" stroke-dasharray="3,3"/>
+                            <path d="M208 75 L175 85" stroke="#ddd" stroke-width="2" stroke-dasharray="3,3"/>
+                            <path d="M92 155 L125 115" stroke="#ddd" stroke-width="2" stroke-dasharray="3,3"/>
+                            <path d="M208 155 L175 115" stroke="#ddd" stroke-width="2" stroke-dasharray="3,3"/>
+                        </svg>
+                        <div class="project-overlay">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Design Workshop</div>
+                        <h3 class="project-title">Innovation Lab Workshop Series</h3>
+                        <p class="project-description">
+                            Conducted a comprehensive design thinking workshop series for a Fortune 500 company, focusing on user-centered innovation and rapid prototyping.
+                        </p>
+                        <div class="project-impact">
+                            <strong>Impact:</strong> 15 validated concepts, 3 launched products, $2M in new revenue
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Design Thinking</span>
+                            <span class="tag">Facilitation</span>
+                            <span class="tag">Innovation</span>
+                        </div>
+                        <a href="#" class="project-link">Read Full Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Project 4: Healthcare Platform -->
+                <article class="project-card" data-category="ui-ux app-dev">
+                    <div class="project-image">
+                        <!-- SVG thumbnail for healthcare platform -->
+                        <svg width="100%" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="200" fill="#ecf0f1"/>
+                            <rect x="40" y="40" width="220" height="120" rx="12" fill="white"/>
+                            <rect x="50" y="50" width="200" height="20" rx="4" fill="#27ae60"/>
+                            <rect x="60" y="90" width="80" height="50" rx="6" fill="#3498db" opacity="0.2"/>
+                            <rect x="160" y="90" width="80" height="50" rx="6" fill="#e74c3c" opacity="0.2"/>
+                            <circle cx="100" cy="115" r="15" fill="#27ae60"/>
+                            <path d="M95 115 L100 120 L105 110" stroke="white" stroke-width="2" fill="none"/>
+                            <rect x="185" y="105" width="30" height="20" rx="3" fill="#e74c3c"/>
+                            <path d="M195 110 L205 110 M200 105 L200 115" stroke="white" stroke-width="2"/>
+                        </svg>
+                        <div class="project-overlay">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">UI/UX + App Dev</div>
+                        <h3 class="project-title">MedConnect Patient Portal</h3>
+                        <p class="project-description">
+                            Built a comprehensive patient portal with appointment scheduling, medical records access, and telemedicine integration for improved healthcare delivery.
+                        </p>
+                        <div class="project-impact">
+                            <strong>Impact:</strong> 80% patient adoption rate, 50% reduction in administrative calls
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Healthcare</span>
+                            <span class="tag">Portal Design</span>
+                            <span class="tag">Security</span>
+                        </div>
+                        <a href="#" class="project-link">Read Full Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Project 5: Startup Dashboard -->
+                <article class="project-card" data-category="ui-ux">
+                    <div class="project-image">
+                        <!-- SVG thumbnail for dashboard -->
+                        <svg width="100%" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="200" fill="#2c3e50"/>
+                            <rect x="20" y="20" width="260" height="160" rx="8" fill="#34495e"/>
+                            <rect x="30" y="30" width="240" height="20" rx="4" fill="#3498db"/>
+                            <rect x="40" y="70" width="60" height="40" rx="4" fill="#1abc9c" opacity="0.8"/>
+                            <rect x="120" y="70" width="60" height="40" rx="4" fill="#e74c3c" opacity="0.8"/>
+                            <rect x="200" y="70" width="60" height="40" rx="4" fill="#f39c12" opacity="0.8"/>
+                            <path d="M40 140 Q80 130 120 140 T200 135 T260 140" stroke="#3498db" stroke-width="3" fill="none"/>
+                            <circle cx="80" cy="135" r="4" fill="#3498db"/>
+                            <circle cx="160" cy="138" r="4" fill="#3498db"/>
+                            <circle cx="230" cy="137" r="4" fill="#3498db"/>
+                        </svg>
+                        <div class="project-overlay">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">UI/UX Design</div>
+                        <h3 class="project-title">StartupMetrics Analytics Dashboard</h3>
+                        <p class="project-description">
+                            Designed an intuitive analytics dashboard for startup founders to track key metrics, visualize growth patterns, and make data-driven decisions.
+                        </p>
+                        <div class="project-impact">
+                            <strong>Impact:</strong> 90% user satisfaction, 40% faster decision-making process
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Data Visualization</span>
+                            <span class="tag">Dashboard</span>
+                            <span class="tag">Analytics</span>
+                        </div>
+                        <a href="#" class="project-link">Read Full Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Project 6: Corporate Training App -->
+                <article class="project-card" data-category="app-dev workshops">
+                    <div class="project-image">
+                        <!-- SVG thumbnail for training app -->
+                        <svg width="100%" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="200" fill="#9b59b6" opacity="0.1"/>
+                            <rect x="60" y="50" width="180" height="100" rx="10" fill="#9b59b6" opacity="0.8"/>
+                            <rect x="80" y="70" width="140" height="15" rx="3" fill="white"/>
+                            <rect x="80" y="95" width="100" height="10" rx="2" fill="white" opacity="0.8"/>
+                            <rect x="80" y="115" width="120" height="10" rx="2" fill="white" opacity="0.8"/>
+                            <circle cx="200" cy="100" r="20" fill="white" opacity="0.3"/>
+                            <path d="M190 100 L200 110 L210 100" fill="#9b59b6"/>
+                            <rect x="100" y="160" width="100" height="8" rx="4" fill="#27ae60"/>
+                        </svg>
+                        <div class="project-overlay">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">App Dev + Workshops</div>
+                        <h3 class="project-title">LearnFlow Training Platform</h3>
+                        <p class="project-description">
+                            Developed a comprehensive corporate training platform with interactive modules, progress tracking, and delivered workshops to onboard teams effectively.
+                        </p>
+                        <div class="project-impact">
+                            <strong>Impact:</strong> 500+ employees trained, 95% completion rate, 85% knowledge retention
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">E-learning</span>
+                            <span class="tag">Training</span>
+                            <span class="tag">Platform</span>
+                        </div>
+                        <a href="#" class="project-link">Read Full Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio CTA Section -->
+    <section class="portfolio-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Next Project?</h2>
+                <p>Let's collaborate to create exceptional digital experiences that drive results for your business. Our team is ready to turn your vision into reality.</p>
+                <a href="#contact" class="btn btn-primary btn-large">Work With Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Company Info -->
+                <div class="footer-section">
+                    <h3>Anovar HC</h3>
+                    <p>Transforming ideas into seamless digital experiences. Your trusted partner for IT consulting services.</p>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="footer-section">
+                    <h4>Contact Information</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> info@anotavarhc.com</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Business Ave, Tech City, TC 12345</p>
+                    </div>
+                </div>
+                
+                <!-- Social Media -->
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 Anovar HC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for mobile menu toggle and basic filtering -->
+    <script>
+        // Mobile menu functionality
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        }));
+
+        // Basic portfolio filter functionality
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+
+                const filterValue = btn.getAttribute('data-filter');
+
+                projectCards.forEach(card => {
+                    if (filterValue === 'all') {
+                        card.style.display = 'block';
+                    } else {
+                        const categories = card.getAttribute('data-category');
+                        if (categories.includes(filterValue)) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    }
+                });
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
