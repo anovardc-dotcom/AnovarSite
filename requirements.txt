@@ -1,0 +1,10 @@
+
+# Requirements for Anovar HC static website
+# Using Python's built-in http.server module for serving static files
+
+# No additional packages required for basic static file serving
+# Python's built-in http.server module handles the web server functionality
+
+# Optional: If you want to add more advanced features in the future
+# flask==2.3.3
+# gunicorn==21.2.0
